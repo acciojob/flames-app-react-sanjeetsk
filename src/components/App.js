@@ -1,8 +1,7 @@
 import React, {Component, useState} from "react";
 import '../styles/App.css';
 
-class App extends Component {
-    render() {
+const App = () => {
 
         const [firstName, setFirstName] = useState('');
         const [secondName, setSecondName] = useState('');
@@ -62,7 +61,6 @@ class App extends Component {
 
             </div>
         )
-    }
 }
 
 
